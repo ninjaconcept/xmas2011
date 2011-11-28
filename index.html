@@ -1,88 +1,55 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html>
-<head>
-  <meta charset='utf-8'>
 
-  <title>ninjaconcept/xmas2011 @ GitHub</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HO!</title>
+    <link rel="stylesheet" href="css/xmas.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/snowfall.min.js"></script>
+  </head>
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #f3a158;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #0c5ea7; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #0c5ea7; }
-    h3 { text-align: center; color: #0c5ea7; }
-    a { color: #0c5ea7; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+  <body>
 
-<body>
-  <a href="https://github.com/ninjaconcept/xmas2011"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <div id="xmas">
 
-  <div id="container">
+      <img id="santa" src="images/santa.jpg" alt=""/>
+      <div id="details">
+        <div id="logos">
+          <table>
+            <tr>
+              <td><img src="images/logos.png" alt=""/></td>
+            </tr>
+          </table>
+        </div>
+        <h2>HO, HO, HO!</h2>
+        <p><strong>Du bist hiermit herzlich eingeladen</strong> auf die  gemeinsame Weihnachtsfeier von Kymo, Ninja Concept und Hedgehog.</p>
 
-    <div class="download">
-      <a href="https://github.com/ninjaconcept/xmas2011/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/ninjaconcept/xmas2011/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+        <h2>Wann & Wo?</h2>
+        <p><strong>Samstag, den 17. 12. 2011</strong>
+            <br/>19.00 – 22.30h
+            <br/>ab 22.30h offen für Freunde
+        </p>
+
+        <p class="last"><strong>Mood Wood (beim KSC Stadion)</strong>
+          <br/>Linkenheimer Allee 8
+          <br/>76131 Karlsruhe
+          <br/><br/>
+          Wir treffen uns um 18:30 am Marktplatz. Von dort geht's dann gemeinsam los.
+        </p>
+      </div>
+
     </div>
 
-    <h1><a href="https://github.com/ninjaconcept/xmas2011">xmas2011</a>
-      <span class="small">by <a href="https://github.com/ninjaconcept">ninjaconcept</a></span></h1>
+    <script type="text/javascript">
+      $(document).snowfall({
+        flakeCount:140,
+        minSize: 1,
+        maxSize: 12,
+        maxSpeed: 15
+      });
+    </script>
 
-    <div class="description">
-      Website for the Ninja Christmas Party 2011
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Authors</h2>
-      <p>Stefan Botzenhart (sb@basiszwo.com)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>NinjaConcept GmbH (info@ninjaconcept.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/ninjaconcept/xmas2011/zipball/master">zip</a> or
-      <a href="https://github.com/ninjaconcept/xmas2011/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/ninjaconcept/xmas2011</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/ninjaconcept/xmas2011">ninjaconcept/xmas2011</a>
-    </div>
-
-  </div>
-
-</body>
+  </body>
 </html>
